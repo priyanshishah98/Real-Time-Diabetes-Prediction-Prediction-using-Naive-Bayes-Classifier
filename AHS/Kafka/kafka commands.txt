@@ -1,0 +1,24 @@
+> bin\windows\zookeeper-server-start.bat config/zookeeper.properties  2181
+
+> bin\windows\kafka-server-start.bat config/server.properties
+
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.3 Structured
+spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.3 D stream
+
+bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+
+bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+cd c:\kafka\kafka_2.11-2.2.0
+
+> bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+
+
+https://vimeo.com/274395653
+
+http://ammozon.co.in/headtohead/?p=276
+
+https://www.keisan.io/en/knowledgebase/real-time-ml-pipeline-spark
+
+
+Streamdml.py Working Fine !

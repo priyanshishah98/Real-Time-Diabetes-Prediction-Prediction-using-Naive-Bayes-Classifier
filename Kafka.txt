@@ -1,0 +1,38 @@
+Kafka server is located in C:/Kafka ( cd c:\kafka\kafka_2.11-2.2.0 ) 
+
+
+Step 1 : Run above command to be Kafka Directory [ cd c:\kafka\kafka_2.11-2.2.0 ] 
+Step 2 : In order to run Kafka you need Zookeper server running. 
+	 So start Zookeper by running below command 
+	 Run this command after moving in kafka Directory
+
+	 bin\windows\zookeeper-server-start.bat config/zookeeper.properties
+
+	 This service will run on port number 2181.
+
+Step 3 : Now run kafka Server by running below command 
+
+	 bin\windows\kafka-server-start.bat config/server.properties
+
+Step 4 : In order to create a new topic use this 
+
+	 bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+
+
+Step 5 : In order to check all topics use this
+
+	bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+Step 6 : In order to run a producer use this
+
+	bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic test
+
+Step 7 : In order to run a consumer use this
+
+	bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+
+
+
+
+Incase of log Error - https://stackoverflow.com/questions/47168342/kafka-1-0-stops-with-fatal-shutdown-error-logs-directory-failed
+

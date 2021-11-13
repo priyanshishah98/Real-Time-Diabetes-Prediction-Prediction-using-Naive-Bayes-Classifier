@@ -1,0 +1,54 @@
+Sl_no,Variable_name,Description
+1,state_code,State
+2,district_code,District
+3,rural_urban,Rural/Urban
+4,stratum,Stratum
+5,PSU_ID,This field has been provided to hide the identification of record below District level. It is a seven digit number to uniquely identify each record.
+6,ahs_house_unit,House Number
+7,house_hold_no,Household Number
+8,date_survey,Date of Survey (DD-MM-YYYY)
+9,test_salt_iodine,Salt used by the Household has been tested for Iodine content[Recorded as Parts Per Million(PPM)]
+10,record_code_iodine,Result of salt test is coded
+11,record_code_iodine_reason,"In case of Code 4 or 5 in above field,  reason there of has been recorded"
+12,sl_no,Each record of the Household has a serial no. starting with 1.
+13,Sex,Sex of the member of Household
+14,usual_residance,Whether the member of Household is an usual Resident ?
+15,usual_residance_Reason,Reason for not being usual resident is recorded for the members whose details are copied from AHS Schedule.
+16,identification_code,Each member of a PSU is assigned a unique number
+17,Age_Code,Unit of recording of age in the next field
+18,Age,Age (as on date of survey - in days or months or years)  
+19,date_of_birth,Date of Birth  (DD)
+20,month_of_birth,Month of Birth  (MM)
+21,year_of_birth,Year of Birth  (YYYY)
+22,Weight_measured,For members aged 1 month and above : Response relating to Weight measurement 
+23,Weight_in_kg,For members aged 1 month and above : Outcome of the weight measurement (in kilograms)
+24,Length_height_measured,For members aged 1 month and above : Response relating to Length /Height Measurement
+25,length_height_code, For members aged 1 month and above : Measurement of length or height
+26,Length_height_cm,For members aged 1 month and above : Outcome of Length /Height Measurement(in centimetres)
+27,Haemoglobin_test,For members aged 6 month and above: Consent for Haemoglobin test
+28,Haemoglobin,For members aged 6 month and above: Status of Haemoglobin Test
+29,Haemoglobin_level,For members aged 6 month and above: Outcome of Haemoglobin Level (Hb) Test (in percentage gms)
+30,BP_systolic,For members aged 18 years and above: First Reading of Systolic (Upper) Blood Pressure (in mm of Hg)
+31,BP_systolic_2_reading,For members aged 18 years and above: Second Reading of Systolic (Upper) Blood Pressure (in mm of Hg)
+32,BP_Diastolic,For members aged 18 years and above: First Reading of Diastolic (Lower) Blood Pressure (in mm of Hg)
+33,BP_Diastolic_2reading,For members aged 18 years and above: Second Reading of Diastolic (Lower) Blood Pressure (in mm of Hg)
+34,Pulse_rate,For members aged 18 years and above: First Reading of Pulse Rate
+35,Pulse_rate_2_reading,For members aged 18 years and above: Second Reading of Pulse Rate
+36,Diabetes_test,For members aged 18 years and above: Consent for Diabetes testing
+37,fasting_blood_glucose,For members aged 18 years and above: Status of Fasting Blood Glucose Measurement
+38,fasting_blood_glucose_mg_dl,For members aged 18 years and above: Outcome of Fasting Blood Glucose Measurement (in mg/dL)
+39,Marital_status,For Women members aged 15-49 years: Marital Status of Women
+40,gauna_perfor_not_perfor,For Women members aged 15-49 years: Pregnant/Lactating Status of Married & Gauna Performed /Remarried Women
+41,duration_pregnanacy,For Women members aged 15-49 years: Duration of pregnancy/lactation (in months)
+42,first_breast_feeding,For members aged under 3 years: Time at which the child was first breastfed
+43,is_cur_breast_feeding,For members aged under 3 years: Is the child being currently breast- fed
+44,day_or_mn_for_breast_feeding_cd,For members aged under 3 years: Unit of recording of child exclusively  breastfed period in the next field
+45,day_or_month_for_breast_feeding,For members aged under 3 years: Number of days/months was the child exclusively  breastfed
+46,water_month,"For members aged under 3 years: At what age (in months), did the child started receiving water"
+47,ani_milk_month,"For members aged under 3 years: At what age (in months), did the child started receiving  Animal Milk/ Formula Milk"
+48,semisolid_month_or_day,"For members aged under 3 years: At what age (in months), did the child started receiving Semi Solid Mashed Food"
+49,solid_month,"For members aged under 3 years: At what age (in months), did the child started receiving  Solid (Adult)Food"
+50,vegetables_month_or_day,"For members aged under 3 years: At what age (in months), did the child started receiving  Vegetables/ Fruits"
+51,illness_type,For members aged under 5 years: Type of Acute illness during last 15 days
+52,illness_duration,For members aged under 5 years: Duration of Acute illness during last 15 days (in days)       
+53,treatment_type,For members aged under 5 years: Whether hospitalized for the specific acute illness during last 15 days
